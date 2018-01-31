@@ -1,0 +1,27 @@
+<aside class="left-sidebar">
+    <!-- Sidebar scroll-->
+    <div class="scroll-sidebar">
+        <!-- Sidebar navigation-->
+        <nav class="sidebar-nav">
+            <ul id="sidebarnav">
+                <li class="user-profile">
+                    <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><img src="../assets/images/users/1.jpg" alt="user" /><span class="hide-menu">Luis Estrada </span></a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li (click)="perfil()" class="perfil">Mi Perfil</li>
+                    </ul>
+                </li>
+                <li class="nav-devider"></li>
+                <li (click)="inicio()" class="inicio"> <a class="has-arrow waves-effect waves-dark"><i class="mdi mdi-home inicio"></i><span class="hide-menu">Inicio</span></a></li>
+                <li (click)="pedidos()" class="pedidos"> <a class="has-arrow waves-effect waves-dark"><i class="mdi mdi-file pedidos"></i><span class="hide-menu">Mis pedidos<span class="label label-rouded label-themecolor pull-right">4</span></span></a>
+                   
+                </li>
+                <li (click)="catalogo()" class="catalogo"> <a class="has-arrow waves-effect waves-dark"><i class="mdi mdi-cart catalogo"></i><span class="hide-menu">Ver Catalogo</span></a></li>
+                <li (click)="promociones()" class="promociones"> <a class="has-arrow waves-effect waves-dark"><i class="mdi mdi-tag promociones"></i><span class="hide-menu">Promociones</span></a></li>
+                 <li (click)="salir()"> <a class="waves-effect waves-dark"><i class="mdi mdi-power"></i><span class="hide-menu">Salir</span></a></li>
+               
+            </ul>
+        </nav>
+        <!-- End Sidebar navigation -->
+    </div>
+    <!-- End Sidebar scroll-->
+</aside>
